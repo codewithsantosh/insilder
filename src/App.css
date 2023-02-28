@@ -6,6 +6,65 @@
   height: 40vmin;
   pointer-events: none;
 }
+.Compofcard-container {
+  display: flex;
+  margin-top: 100px;
+  margin-left: 100px;
+  cursor: pointer;
+}
+.Colorfullcard-container {
+  margin-top: 100px;
+  margin-left: 110px;
+  display: flex;
+}
+.Compoffourcard-container {
+  margin-top: 100px;
+  margin-left: 120px;
+  display: flex;
+}
+.Compoficon-container {
+  margin-top: 100px;
+  margin-left: 120px;
+  display: flex;
+}
+.menu-container {
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  z-index: 119;
+  background: #373435;
+  color: white;
+  font-size: 18px;
+  align-items: center;
+  font-style: sans-serif;
+  
+}
+.colorfullcard-subcontainer {
+  width: 180px;
+  height: 110px;
+  border-radius: 6px;
+  background-image: linear-gradient(to left, #31c0f0, #34aeeb);
+  box-shadow: 0 2px 4px 0;
+  cursor: pointer;
+}
+.footer-container {
+  background-color: black;
+  width: 100%;
+  height: 400px;
+  margin-top: 70px;
+  display: flex;
+}
+.Left-container {
+  width: 650px;
+  height: 300px;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.upper-container {
+  color: white;
+  margin-left: 20px;
+  margin-top: 50px;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -23,6 +82,27 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.lower-container {
+  color: white;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+.right-container {
+  width: 650px;
+  height: 300px;
+  margin-top: 50px;
+}
+.rightupper-container {
+  color: white;
+  margin-left: 20px;
+  margin-top: 50px;
+  display: flex;
+}
+.rightlower-container {
+  color: white;
+  margin-left: 20px;
+  margin-top: 50px;
+}
 
 .App-link {
   color: #61dafb;
@@ -34,5 +114,15 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 34.9em) {
+  .Compofcard-container {
+    margin-left: 10px;
+    cursor: pointer;
+    margin-top: 100px;
+  }
+  .Compofcard-small{
   }
 }
