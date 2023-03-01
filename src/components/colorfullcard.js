@@ -4,7 +4,6 @@ export default function colorfullcard(props) {
     <>
       <div style={{ display: "flex" }}>
         <div className="colorfullcard-subcontainer" >
-          {" "}
           <h2
             style={{
               color: "white",
