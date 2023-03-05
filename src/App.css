@@ -8,22 +8,22 @@
 }
 .Compofcard-container {
   display: flex;
-  margin-top: 100px;
+  margin-top: 5px;
   margin-left: 100px;
   cursor: pointer;
 }
 .Colorfullcard-container {
-  margin-top: 100px;
+  margin-top: 5px;
   margin-left: 110px;
   display: flex;
 }
 .Compoffourcard-container {
-  margin-top: 100px;
+  margin-top: 5px;
   margin-left: 120px;
   display: flex;
 }
 .Compoficon-container {
-  margin-top: 100px;
+  margin-top: 5px;
   margin-left: 120px;
   display: flex;
 }
