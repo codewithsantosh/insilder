@@ -1,5 +1,4 @@
 import "./App.css";
-//import Navbar from './components/navbar';
 import Carousel from "./components/compofcarousel";
 import Layout1 from "./components/comofLayout";
 import Compofcard from "./components/compofcard";
