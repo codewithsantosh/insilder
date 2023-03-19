@@ -1,7 +1,8 @@
-import React from "react";
 import { Card } from "antd";
+import React,{useEffect, useState} from "react";
 
-export default function compofcard(props) {
+const Compofcard = (props) => {
+
   return (
     <>
       <Card className="parent"
@@ -12,8 +13,7 @@ export default function compofcard(props) {
         cover={<img className="child" alt="example" src={props.data.imageurl} />}
         
       >
-
-        <h2> {props.data.title}</h2>
+       <h2>{props.data.title}</h2>
         <p>{props.data.disp1}</p>
         <h3>{props.data.price}</h3>
         <div style={{ backgroundColor: "#F5FCFE", padding: "10px" }}>
@@ -22,6 +22,11 @@ export default function compofcard(props) {
           </strong>
         </div>
       </Card>
+    
     </>
   );
 }
+
+
+
+export default Compofcard;

@@ -7,10 +7,11 @@ export default function samllcomp(props){
         <div style={{display:'flex'}}>
             <div>
             <img style={{
-                width:'50px',
-                height:'50px',
+                width:'40px',
+                height:'40px',
                 backgroundColor:'#ededed',
                 borderRadius:'25px',
+                padding:'6px',
                 marginTop:'20px',
                 marginRight:'10px',
             }} src={img} alt="example"/>

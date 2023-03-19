@@ -28,22 +28,33 @@ export const testUsers = [
 export const users1 = [
   {
     title: "Theatre & art",
-    color: "linear-gradient(to  left, #31C0F0, #34aeeb)",
+    color: 'linear-gradient(to  left, #fc4103,#fc7703)',
+
   },
   {
     title: "Comedy",
+    color: 'linear-gradient(to  left, #31C0F0, #34aeeb)',
+
   },
   {
     title: "Courses",
+    color: 'linear-gradient(to  left, #03fc8c, #03fcba)',
+
   },
   {
     title: "Pocket Friendly",
+    color: 'linear-gradient(to  left, #9003fc, #df03fc)',
+
   },
   {
     title: "Music Concert",
+    color: 'linear-gradient(to  left, #171717, #635757)',
+
   },
   {
     title: "Workshops",
+    color: 'linear-gradient(to  left, #fc037b, #fc0341)',
+
   },
 ];
 

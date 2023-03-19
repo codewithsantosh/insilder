@@ -20,7 +20,7 @@
 .Compoffourcard-container {
   margin-top: 5px;
   margin-left: 120px;
-  display: flex;
+  display: inline-flex;
 }
 .Compoficon-container {
   margin-top: 5px;

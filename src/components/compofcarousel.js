@@ -25,7 +25,7 @@ const compofcarousel = () => {
             <img
               width="450px"
               height="235px"
-              style={{ borderRadius: "10px" }}
+              style={{ borderRadius: "10px",opacity:'0.3' }}
               src="https://res.cloudinary.com/dwzmsvp7f/image/fetch/q_75,f_auto,w_560/https%3A%2F%2Fmedia.insider.in%2Fimage%2Fupload%2Fc_crop%2Cg_custom%2Fv1676363451%2Fww3glajzxpmvabdeqian.png"
             />
           </div>
@@ -41,7 +41,7 @@ const compofcarousel = () => {
             <img
               width="460px"
               height="235px"
-              style={{ borderRadius: "10px" }}
+              style={{ borderRadius: "10px",opacity:'0.3' }}
               src="https://res.cloudinary.com/dwzmsvp7f/image/fetch/q_75,f_auto,w_560/https%3A%2F%2Fmedia.insider.in%2Fimage%2Fupload%2Fc_crop%2Cg_custom%2Fv1675948934%2Fbfpd5nnzzpcysja1jyvu.jpg"
             />
           </div>
@@ -54,7 +54,7 @@ const compofcarousel = () => {
             <img
               width="450px"
               height="235px"
-              style={{ borderRadius: "10px" }}
+              style={{ borderRadius: "10px",opacity:'0.3' }}
               src="https://res.cloudinary.com/dwzmsvp7f/image/fetch/q_75,f_auto,w_560/https%3A%2F%2Fmedia.insider.in%2Fimage%2Fupload%2Fc_crop%2Cg_custom%2Fv1676381999%2Fle2wexvfnnitztnnkziu.jpg"
             />
           </div>
@@ -70,7 +70,7 @@ const compofcarousel = () => {
             <img
               width="460px"
               height="235px"
-              style={{ borderRadius: "10px" }}
+              style={{ borderRadius: "10px",opacity:'0.3' }}
               src="https://res.cloudinary.com/dwzmsvp7f/image/fetch/q_75,f_auto,w_560/https%3A%2F%2Fmedia.insider.in%2Fimage%2Fupload%2Fc_crop%2Cg_custom%2Fv1675948934%2Fbfpd5nnzzpcysja1jyvu.jpg"
             />
           </div>
@@ -82,7 +82,7 @@ const compofcarousel = () => {
             <img
               width="450px"
               height="235px"
-              style={{ borderRadius: "10px" }}
+              style={{ borderRadius: "10px",opacity:'0.3' }}
               src="https://res.cloudinary.com/dwzmsvp7f/image/fetch/q_75,f_auto,w_560/https%3A%2F%2Fmedia.insider.in%2Fimage%2Fupload%2Fc_crop%2Cg_custom%2Fv1676381999%2Fle2wexvfnnitztnnkziu.jpg"
             />
           </div>
@@ -98,7 +98,7 @@ const compofcarousel = () => {
             <img
               width="460px"
               height="235px"
-              style={{ borderRadius: "10px" }}
+              style={{ borderRadius: "10px" ,opacity:'0.3'}}
               src="https://res.cloudinary.com/dwzmsvp7f/image/fetch/q_75,f_auto,w_560/https%3A%2F%2Fmedia.insider.in%2Fimage%2Fupload%2Fc_crop%2Cg_custom%2Fv1675948934%2Fbfpd5nnzzpcysja1jyvu.jpg"
             />
           </div>
@@ -110,7 +110,7 @@ const compofcarousel = () => {
             <img
               width="450px"
               height="235px"
-              style={{ borderRadius: "10px" }}
+              style={{ borderRadius: "10px",opacity:'0.3' }}
               src="https://res.cloudinary.com/dwzmsvp7f/image/fetch/q_75,f_auto,w_560/https%3A%2F%2Fmedia.insider.in%2Fimage%2Fupload%2Fc_crop%2Cg_custom%2Fv1676381999%2Fle2wexvfnnitztnnkziu.jpg"
             />
           </div>
@@ -126,7 +126,7 @@ const compofcarousel = () => {
             <img
               width="460px"
               height="235px"
-              style={{ borderRadius: "10px" }}
+              style={{ borderRadius: "10px",opacity:'0.3' }}
               src="https://res.cloudinary.com/dwzmsvp7f/image/fetch/q_75,f_auto,w_560/https%3A%2F%2Fmedia.insider.in%2Fimage%2Fupload%2Fc_crop%2Cg_custom%2Fv1675948934%2Fbfpd5nnzzpcysja1jyvu.jpg"
             />
           </div>

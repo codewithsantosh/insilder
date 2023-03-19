@@ -1,16 +1,29 @@
 import "./App.css";
 import Carousel from "./components/compofcarousel";
 import Layout1 from "./components/comofLayout";
-import Compofcard from "./components/compofcard";
+import Compofcard from "./components/Compofcard";
 import Colorfullcard from "./components/colorfullcard";
-import Compoffourcard from "./components/compoffourcard";
+import Compoffourcard from "./components/Compoffourcard";
 import Compoficon from "./components/compoficon";
 import Compfooter from "./components/compfooter";
 import Samllcomp from './components/smallcomp';
-import location from './components/assets/location.png';
+//import location from './components/assets/location.png';
 import { testUsers,users1,users2,icons } from './components/constant/alldata';
-
+import React, { useEffect, useState } from "react";
 function App() {
+  const [user, setUser] = useState([]);
+
+  const fetchData = () => {
+    return fetch("http://localhost:5002/")
+          .then((response) => response.json())
+          .then((data) => setUser(data));
+  }
+
+  useEffect(() => {
+    fetchData();
+  },[])
+
+  
   return (
     <>
       <Layout1 />
@@ -62,17 +75,20 @@ function App() {
         <Samllcomp title="FEATURED EVENTS" subtitle="Find safe and exciting events around you."/>
 
       </div>
+
       <div className="Compoffourcard-container">
-        {users2.map((item2, i2) => (
-          <div
+      {user && user.length > 0 && user.map((userData, index) => (
+
+        <div
             style={{
               marginLeft: "20px",
             }}
           >
-            <Compoffourcard data={item2} />
+            <Compoffourcard data={userData}/>
           </div>
-        ))}
+      ))}
       </div>
+      
       <div style={{
         display:'flex',
         marginTop:'100px',
@@ -89,6 +105,9 @@ function App() {
         ))}
       </div>
       <Compfooter />
+
+
+   
       
     </>
   );

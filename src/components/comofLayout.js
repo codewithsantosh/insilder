@@ -21,7 +21,11 @@ export default function comofLayout() {
             key: "Cor-event",
           },
         ]}
-      ></Menu>
+        
+      >
+   
+
+      </Menu>
     </div>
   );
 }
